@@ -18,7 +18,7 @@ function Hero() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Unleashing the Power of Web Deployment!...
+            Deployment was A success!
           </Typography>
           <Typography
             variant="h2"
