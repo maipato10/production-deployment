@@ -1,11 +1,19 @@
+
 import Link from "next/link";
+import BlogPosts from "~/components/blog-posts";
+import Footer from "~/components/footer";
+import Hero from "~/components/home";
+import { Navbar } from "~/components/navbar";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-        I LOVE PRODUCTION DEPLOYMENTS
-      </div>
-    </main>
+   <>
+    <Navbar />
+      <Hero />
+      {/* <Content />
+      <Comments /> */}
+      <BlogPosts />
+      <Footer />
+   </>
   );
 }
